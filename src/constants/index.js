@@ -1,0 +1,3 @@
+const FILTER_BY_SECTOR = 'FILTER_BY_SECTOR';
+
+export default FILTER_BY_SECTOR;
