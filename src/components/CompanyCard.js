@@ -2,22 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const CompanyCard = props => {
-  const { image, companyName } = props;
+  const { profile } = props;
 
   return (
-    <div>
-      <img src={image} alt="logo" />
+    <div key={profile.symbol}>
+      <img src={`https://financialmodelingprep.com/image-stock/${profile.symbol}.jpg`} alt="logo" />
       <p>
         Company:
-        {companyName}
+        {profile.companyName}
       </p>
     </div>
   );
 };
 
 CompanyCard.propTypes = {
-  image: PropTypes.string.isRequired,
-  companyName: PropTypes.string.isRequired,
+  profile: PropTypes.shape({
+    symbol: PropTypes.string.isRequired,
+    companyName: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default CompanyCard;
