@@ -23,7 +23,7 @@ const CompaniesList = props => {
           background: '#17A2B8', minHeight: '90px', marginTop: '0', borderBottomLeftRadius: '20px', borderBottomRightRadius: '20px', paddingRight: '0', paddingTop: '0', paddingBottom: '15px', paddingLeft: '45px',
         }}
       >
-        {list.slice(0, 10).map(stock => (
+        {list.slice(0, 40).map(stock => (
           <CompanyCard key={stock.symbol} profile={stock} />
         ))}
       </div>
