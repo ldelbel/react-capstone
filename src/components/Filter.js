@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  COUNTRIES, SECTORS, EXCHANGES, PRICES,
+} from '../constants/index';
 
 const Filter = () => (
   <div style={{
@@ -15,11 +18,10 @@ const Filter = () => (
           Price Range&nbsp;
         </span>
         <select style={{ borderRadius: 8 }}>
-          <optgroup label="This is a group">
-            <option value={12} selected>This is item 1</option>
-            <option value={13}>This is item 2</option>
-            <option value={14}>This is item 3</option>
-          </optgroup>
+          {PRICES.map(price => (
+            <option key={price} value={price} selected>{price}</option>
+          ))}
+
         </select>
       </div>
       <div style={{ marginRight: 20 }}>
@@ -30,11 +32,9 @@ const Filter = () => (
           Sector&nbsp;
         </span>
         <select style={{ borderRadius: 8 }}>
-          <optgroup label="This is a group">
-            <option value={12} selected>This is item 1</option>
-            <option value={13}>This is item 2</option>
-            <option value={14}>This is item 3</option>
-          </optgroup>
+          {SECTORS.map(sector => (
+            <option key={sector} value={sector} selected>{sector}</option>
+          ))}
         </select>
       </div>
       <div style={{ marginRight: 20 }}>
@@ -45,11 +45,9 @@ const Filter = () => (
           Country&nbsp;
         </span>
         <select style={{ borderRadius: 8 }}>
-          <optgroup label="This is a group">
-            <option value={12} selected>This is item 1</option>
-            <option value={13}>This is item 2</option>
-            <option value={14}>This is item 3</option>
-          </optgroup>
+          {COUNTRIES.map(country => (
+            <option key={country} value={country} selected>{country}</option>
+          ))}
         </select>
       </div>
       <div style={{ marginRight: 20 }}>
@@ -60,11 +58,9 @@ const Filter = () => (
           Exchange&nbsp;
         </span>
         <select style={{ borderRadius: 8 }}>
-          <optgroup label="This is a group">
-            <option value={12} selected>This is item 1</option>
-            <option value={13}>This is item 2</option>
-            <option value={14}>This is item 3</option>
-          </optgroup>
+          {EXCHANGES.map(exchange => (
+            <option key={exchange} value={exchange} selected>{exchange}</option>
+          ))}
         </select>
       </div>
       <button
