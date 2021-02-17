@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { useHistory } from 'react-router-dom';
 
 const StyledDiv1 = styled.div`
   width: 31%;
@@ -69,6 +70,11 @@ border-bottom-style: none;
 
 const CompanyCard = props => {
   const { profile } = props;
+  const history = useHistory();
+
+  const handleClick = () => {
+    history.push(`/details/${profile.symbol}`);
+  };
 
   return (
     <StyledDiv1>
@@ -96,7 +102,7 @@ const CompanyCard = props => {
         </div>
       </div>
       <StyledDiv6 className="d-flex flex-row justify-content-around align-items-center">
-        <StyledBtn1 className="btn btn-primary" type="button">Details</StyledBtn1>
+        <StyledBtn1 className="btn btn-primary" type="button" onClick={handleClick}>Details</StyledBtn1>
         <span style={{ fontFamily: 'Alfa Slab One, cursive', color: 'var(--yellow)', fontSize: '23px' }}>{`U$ ${profile.price.toFixed(2)}`}</span>
       </StyledDiv6>
     </StyledDiv1>
