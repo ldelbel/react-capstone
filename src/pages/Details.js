@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
 import Navbar from '../components/Navbar';
 import { quote } from '../API/api';
 
 const Details = () => {
   const { symbol } = useParams();
-  console.log(symbol);
+  const [state, setState] = useState({ o: {} });
+
+  useEffect(async () => {
+    const res = await quote(symbol);
+    setState(res);
+  });
+
   return (
     <>
       <Navbar />
@@ -20,9 +26,9 @@ const Details = () => {
               height: '15%', width: '100%', fontSize: 40, fontFamily: '"Alfa Slab One", cursive', borderStyle: 'none', borderBottomStyle: 'solid',
             }}
           >
-            <span style={{ fontSize: 50, height: 60 }}>AAPL</span>
+            <span style={{ fontSize: 50, height: 60 }}>{state.symbol}</span>
           </div>
-          <div style={{ height: '5%', marginBottom: 20 }}><span style={{ color: 'var(--blue)', fontFamily: '"Alfa Slab One", cursive' }}>NASDAQ</span></div>
+          <div style={{ height: '5%', marginBottom: 20 }}><span style={{ color: 'var(--blue)', fontFamily: '"Alfa Slab One", cursive' }}>{state.exchange}</span></div>
           <div className="d-flex flex-row" style={{ height: '80%' }}>
             <div style={{
               background: 'var(--dark)', width: '61%', height: '90%', borderRadius: 20, padding: 15,
@@ -41,7 +47,7 @@ const Details = () => {
                     fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)', borderTopColor: 'var(--green)',
                   }}
                 >
-                  U$&nbsp;2.068.718.419.968.00
+                  {`U$ ${state.marketCap.toFixed(2)}`}
                 </span>
               </div>
               <div className="d-flex flex-row justify-content-between">
@@ -51,7 +57,7 @@ const Details = () => {
                 >
                   SharesOut:
                 </span>
-                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>17102500165</span>
+                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>{state.sharesOutstanding}</span>
               </div>
               <div className="d-flex flex-row justify-content-center" style={{ borderTopStyle: 'solid', borderTopColor: 'var(--light)' }}>
                 <span style={{
@@ -68,7 +74,7 @@ const Details = () => {
                 >
                   Volume:
                 </span>
-                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>332607163</span>
+                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>{state.volume}</span>
               </div>
               <div className="d-flex flex-row justify-content-between">
                 <span style={{
@@ -77,7 +83,7 @@ const Details = () => {
                 >
                   AvgVolume:
                 </span>
-                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>165778904</span>
+                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>{state.avgVolume}</span>
               </div>
               <div className="d-flex flex-row justify-content-between">
                 <span style={{
@@ -86,7 +92,7 @@ const Details = () => {
                 >
                   PriceAvg50:
                 </span>
-                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)' }}>U$&nbsp;112.15</span>
+                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)' }}>{`U$ ${state.priceAvg50.toFixed(2)}`}</span>
               </div>
               <div className="d-flex flex-row justify-content-between">
                 <span style={{
@@ -95,7 +101,7 @@ const Details = () => {
                 >
                   PriceAvg200:
                 </span>
-                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)' }}>U$&nbsp;112.15</span>
+                <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)' }}>{`U$ ${state.priceAvg200.toFixed(2)}`}</span>
               </div>
             </div>
             <div style={{
@@ -118,7 +124,7 @@ const Details = () => {
                       fontFamily: 'Aleo, serif', color: 'rgb(255,214,0)', fontSize: 38, fontWeight: 'bold', textShadow: '1px 1px 2px rgb(0,0,0)',
                     }}
                   >
-                    U$ 1202.03
+                    {`U$ ${state.price.toFixed(2)}`}
                   </span>
                 </div>
               </div>
@@ -138,7 +144,7 @@ const Details = () => {
                       fontFamily: 'Alata, sans-serif', color: 'var(--green)', fontSize: 28, fontWeight: 'bold',
                     }}
                   >
-                    U$ 1202.03
+                    {`U$ ${state.open.toFixed(2)}`}
                   </span>
                 </div>
               </div>
@@ -158,7 +164,7 @@ const Details = () => {
                       fontFamily: 'Alata, sans-serif', color: 'var(--danger)', fontSize: 28, fontWeight: 'bold',
                     }}
                   >
-                    U$ 1202.03
+                    {`U$ ${state.previousClose.toFixed(2)}`}
                   </span>
                 </div>
               </div>
@@ -188,7 +194,7 @@ const Details = () => {
               color: 'var(--yellow)', fontSize: 28, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', margin: '-5px',
             }}
             >
-              0.07
+              {state.changesPercentage}
             </span>
           </div>
           <div className="d-flex flex-column align-items-end">
@@ -202,7 +208,7 @@ const Details = () => {
               color: 'var(--green)', fontSize: 28, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', margin: '-5px',
             }}
             >
-              123.02
+              {state.dayHigh.toFixed(2)}
             </span>
           </div>
           <div className="d-flex flex-column align-items-end">
@@ -216,7 +222,7 @@ const Details = () => {
               color: 'var(--red)', fontSize: 28, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', margin: '-5px',
             }}
             >
-              110.98
+              {state.dayLow.toFixed(2)}
             </span>
           </div>
           <div className="d-flex flex-column align-items-end">
@@ -224,13 +230,13 @@ const Details = () => {
               borderBottomStyle: 'solid', borderBottomColor: 'var(--light)', height: 30, width: '100%',
             }}
             >
-              <span style={{ color: 'var(--light)', fontSize: 20, fontFamily: 'Alata, sans-serif' }}>Year High&nbsp; (U$)</span>
+              <span style={{ color: 'var(--light)', fontSize: 20, fontFamily: 'Alata, sans-serif' }}>Year High  (U$)</span>
             </div>
             <span style={{
               color: 'var(--green)', fontSize: 28, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', margin: '-5px',
             }}
             >
-              <strong>123.02</strong>
+              <strong>{state.yearHigh.toFixed(2)}</strong>
             </span>
           </div>
           <div className="d-flex flex-column align-items-end">
@@ -244,7 +250,7 @@ const Details = () => {
               color: 'var(--red)', fontSize: 28, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', margin: '-5px',
             }}
             >
-              <strong>110.98</strong>
+              <strong>{state.yearLow.toFixed(2)}</strong>
             </span>
           </div>
         </div>
