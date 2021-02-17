@@ -6,16 +6,18 @@ const initialState = {
     sector: null,
     country: null,
     exchange: null,
-  }
+  },
 };
 
 const filterReducer = (state = initialState, action) => {
-  switch(action.type){
+  switch (action.type) {
     case UPDATE_FILTER_VALUES:
       return {
         ...state,
         filter: action.payload,
-      }
+      };
+    default:
+      return state;
   }
 };
 
