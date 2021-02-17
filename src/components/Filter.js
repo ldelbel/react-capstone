@@ -17,16 +17,16 @@ const Filter = props => {
     console.log(filter);
     switch (target.name) {
       case 'price':
-        setFilter({ ...filter, price: value });
+        setFilter({ ...filter, price: value === 'null' ? null : value });
         return filter;
       case 'sector':
-        setFilter({ ...filter, sector: value });
+        setFilter({ ...filter, sector: value === 'null' ? null : value });
         return filter;
       case 'country':
-        setFilter({ ...filter, country: value });
+        setFilter({ ...filter, country: value === 'null' ? null : value });
         return filter;
       case 'exchange':
-        setFilter({ ...filter, exchange: value });
+        setFilter({ ...filter, exchange: value === 'null' ? null : value });
         return filter;
       default:
         return filter;
@@ -53,18 +53,17 @@ const Filter = props => {
           </span>
           <select
             style={{ borderRadius: 8 }}
-            defaultValue="defaultOption"
+            defaultValue="null"
             onChange={e => handleChange(e.target)}
             name="price"
           >
-            <option key={7} value="defaultOption" disabled>
+            <option key="uniq" value="null">
               Select
             </option>
             {PRICES.map(price => (
               <option
                 key={price}
                 value={price}
-                selected
               >
                 {`< ${price}`}
               </option>
@@ -83,9 +82,13 @@ const Filter = props => {
             style={{ borderRadius: 8 }}
             onChange={e => handleChange(e.target)}
             name="sector"
+            defaultValue="null"
           >
+            <option key="uniq" value="null">
+              Select
+            </option>
             {SECTORS.map(sector => (
-              <option key={sector} value={sector} selected>{sector}</option>
+              <option key={sector} value={sector}>{sector}</option>
             ))}
           </select>
         </div>
@@ -100,9 +103,13 @@ const Filter = props => {
             style={{ borderRadius: 8 }}
             onChange={e => handleChange(e.target)}
             name="country"
+            defaultValue="null"
           >
+            <option key="uniq" value="null">
+              Select
+            </option>
             {COUNTRIES.map(country => (
-              <option key={country} value={country} selected>{country}</option>
+              <option key={country} value={country}>{country}</option>
             ))}
           </select>
         </div>
@@ -117,9 +124,13 @@ const Filter = props => {
             style={{ borderRadius: 8 }}
             onChange={e => handleChange(e.target)}
             name="exchange"
+            defaultValue="null"
           >
+            <option key="uniq" value="null">
+              Select
+            </option>
             {EXCHANGES.map(exchange => (
-              <option key={exchange} value={exchange} selected>{exchange}</option>
+              <option key={exchange} value={exchange}>{exchange}</option>
             ))}
           </select>
         </div>
