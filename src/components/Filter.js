@@ -135,7 +135,7 @@ const Filter = props => {
           </select>
         </div>
         <button
-          className="btn btn-primary"
+          className="btn"
           type="button"
           onClick={handleSubmit}
           style={{
