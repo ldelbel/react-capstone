@@ -5,7 +5,30 @@ import { quote } from '../API/api';
 
 const Details = () => {
   const { symbol } = useParams();
-  const [state, setState] = useState({ o: {} });
+  const [state, setState] = useState({
+    symbol: 'AAPL',
+    name: 'Apple Inc.',
+    price: 120.96000000,
+    changesPercentage: 0.07000000,
+    change: 0.08000000,
+    dayLow: 110.89000000,
+    dayHigh: 123.70000000,
+    yearHigh: 137.98000000,
+    yearLow: 52.76750000,
+    marketCap: 2068718419968.00000000,
+    priceAvg50: 112.15875000,
+    priceAvg200: 85.41895000,
+    volume: 332607163,
+    avgVolume: 165778904,
+    exchange: 'NASDAQ',
+    open: 120.07000000,
+    previousClose: 120.88000000,
+    eps: 3.29600000,
+    pe: 36.69902800,
+    earningsAnnouncement: '2020-07-30T16:30:00.000+0000',
+    sharesOutstanding: 17102500165,
+    timestamp: 1599435459,
+  });
 
   useEffect(async () => {
     const res = await quote(symbol);
