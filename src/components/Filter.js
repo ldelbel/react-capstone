@@ -14,27 +14,20 @@ const Filter = props => {
 
   const handleChange = target => {
     const { value } = target.options[target.selectedIndex];
+    console.log(filter);
     switch (target.name) {
       case 'price':
-        return {
-          ...filter,
-          price: value,
-        };
+        filter.price = value;
+        return filter;
       case 'sector':
-        return {
-          ...filter,
-          sector: value,
-        };
+        filter.sector = value;
+        return filter;
       case 'country':
-        return {
-          ...filter,
-          country: value,
-        };
+        filter.country = value;
+        return filter;
       case 'exchange':
-        return {
-          ...filter,
-          exchange: value,
-        };
+        filter.exchange = value;
+        return filter;
       default:
         return filter;
     }

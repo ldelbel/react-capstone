@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import CompanyCard from './CompanyCard';
 import Filter from './Filter';
 import updateFilter from '../actions/index';
+import mapStockstoProps from '../helpers/index';
 
 const StyledContainer = styled.div`
 border-radius: 20px;
@@ -46,4 +47,4 @@ CompaniesList.propTypes = {
   updateFilter: PropTypes.func.isRequired,
 };
 
-export default connect(state => state, { updateFilter })(CompaniesList);
+export default connect(mapStockstoProps, { updateFilter })(CompaniesList);
