@@ -1,5 +1,7 @@
+import INITIAL_STATE from '../constants/initial';
+
 const mapStockstoProps = state => {
-  const { list } = state.stocksReducer;
+  const { list } = INITIAL_STATE;
   const { filter } = state.filterReducer;
   const filterMultiple = (array, price, sector, country, exchange) => {
     let filtered = array;

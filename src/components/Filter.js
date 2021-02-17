@@ -1,32 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
   COUNTRIES, SECTORS, EXCHANGES, PRICES,
 } from '../constants/index';
 
 const Filter = props => {
-  const filter = {
+  const [filter, setFilter] = useState({
     price: null,
     sector: null,
     country: null,
     exchange: null,
-  };
+  });
 
   const handleChange = target => {
     const { value } = target.options[target.selectedIndex];
     console.log(filter);
     switch (target.name) {
       case 'price':
-        filter.price = value;
+        setFilter({ ...filter, price: value });
         return filter;
       case 'sector':
-        filter.sector = value;
+        setFilter({ ...filter, sector: value });
         return filter;
       case 'country':
-        filter.country = value;
+        setFilter({ ...filter, country: value });
         return filter;
       case 'exchange':
-        filter.exchange = value;
+        setFilter({ ...filter, exchange: value });
         return filter;
       default:
         return filter;
