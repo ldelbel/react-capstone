@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# StockList
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![View Code](https://img.shields.io/badge/View%20-Code-green)]()
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)]()
+[![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)]()
 
-## Available Scripts
+<br />
+<p align="center">
+  <a href="https://github.com/ldelbel/react-capstone">
+    <img src="logo.png" alt="Logo" width="100">
+  </a>
 
-In the project directory, you can run:
+  <h2 align="center">StockList</h2>
 
-### `yarn start`
+  <h3 align="center">Catalogue of Stocks with Real-time information<h3>
+  <p align="center">
+    <a href="https://github.com/ldelbel/react-capstone"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    -
+    <a href="https://github.com/ldelbel/react-capstone/issues">Report Bug</a>
+    -
+    <a href="https://github.com/ldelbel/react-capstone/pulls">Request Feature</a>
+    -
+  </p>
+</p>
+  
+  ![screenshot](./screenshot.png)
+    
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a href="#brief">Project Briefing</a> |
+  <a href="#require">Technical Requirements</a> |
+  <a href="#arch">Architecture, Data Management and Quality Control</a> |
+  <a href="#ldl">Live Demo Link</a> |
+  <a href="#ins">Installing</a> |
+  <a href="#with">Built With</a> |
+  <a href="#author">Author</a>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Briefing <a name = "brief"></a>
 
-### `yarn test`
+This project is the React & Redux Capstone Project required for completing the React & Redux module at [Microverse](https://www.microverse.org/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The capstone project is performed under time restrictions and presents business-like specifications to be followed. The goal is to simulate as much as possible the real conditions of business situations and practice professional execution.  
 
-### `yarn build`
+## Technical Requirements <a name = "require"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The original specification and design for the project followed those of [Denys Chagaida's 'Pimp My Dog Online Store'](https://www.notion.so/Catalogue-of-Dog-Clothes-8bf1512b8ab34fa28848beb8ab698a32), however it is not required to follow the design and we are supposed to change the theme of the project. I chose to make a catalogue of stocks so I could have a grasp on the subject of finance, in which I'm interested.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The provided requirements stated that we must build the page with at least two types of pages:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- One page where all the displayed items could be filtered via given parameters
+- A second page for the item details
 
-### `yarn eject`
+Additionally, our app must collect data externally using asynchronous API calls.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Architecture, Data Management and Quality Control <a name = "arch"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### File Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The structure used in this project was the [Flat Structure](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase), because it fullfill the needs of the project based on it's size and complexity.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### State Management
 
-## Learn More
+The state of the entire app was managed using Redux Store.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### External Requests and API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The website is populated with data coming from the [Financial Modeling Prep API](https://financialmodelingprep.com/developer). Fetch() was used to make the requests, since the response data for this API is simple to handle and doesn't demand sophisticated processing.
 
-### Code Splitting
+### Quality Control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project was built following the rules of [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/).
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Live Demo Link <a name = "ldl"></a>
 
-### Making a Progressive Web App
+[Live Demo]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔧 Built with <a name = "with"></a>
 
-### Advanced Configuration
+- Javascript
+- ReactJS
+- Redux
+- yarn
+- Styled Components
+- Financial Modeling Prep API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🛠 Requirements <a name = "req"></a>
 
-### Deployment
+You'll need a package manager to install the dependencies listed in package.json in order to make it work in your local machine.
+This project used YARN. The installation guide can be found [Here](https://classic.yarnpkg.com/en/docs/install/#debian-stable).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔨 Setup and Installing <a name = "ins"></a>
 
-### `yarn build` fails to minify
+To setup the project, run the following commands on terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+$ cd <folder> (the place you want to have the files installed)
+$ git clone https://github.com/ldelbel/react-capstone.git
+$ cd react-capstone
+$ yarn install
+
+```
+
+This will install the dependencies in your local machine. This process can take a few minutes.
+
+## 🔨 Running Locally
+
+After installing the dependencies you can start the application running the code below
+
+```
+$ yarn start
+
+```
+
+If your default browser doesn't open automatically, visit http://localhost/3000.
+
+## ✒️ Author <a name = "author"></a>
+
+### 👨‍💻 Lucas Delbel
+
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/ldelbel)
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucasdelbel/)
+[![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:lucdelbel@gmail.com)
+[![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/delbel_lucas)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page]().
+
+## 👍 Show your support
+
+Give a ⭐️ if you like this project!
+
+## :clap: Acknowledgements
+
+- Microverse: [@microverse](https://www.microverse.org/)
+- React: [@react](https://reactjs.org/)
+- Financial Modeling Prep API: [@financialmodelingprep](https://financialmodelingprep.com/developer/)
