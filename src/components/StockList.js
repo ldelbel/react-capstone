@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import CompanyCard from './CompanyCard';
+import StockCard from './StockCard';
 import Filter from './Filter';
 import updateFilter from '../actions/index';
-import mapStockstoProps from '../helpers/index';
+import mapStockstoProps from '../utils/index';
 
 const StyledContainer = styled.div`
 border-radius: 20px;
@@ -14,7 +14,7 @@ margin-top: 35px;
 box-shadow: 2px 2px 8px 2px rgba(33,37,41,0.62);
 `;
 
-const CompaniesList = props => {
+const StockList = props => {
   const { list } = props;
 
   const handleUpdateFilter = target => {
@@ -31,14 +31,14 @@ const CompaniesList = props => {
         }}
       >
         {list.slice(0, 40).map(stock => (
-          <CompanyCard key={stock.symbol} profile={stock} />
+          <StockCard key={stock.symbol} profile={stock} />
         ))}
       </div>
     </StyledContainer>
   );
 };
 
-CompaniesList.propTypes = {
+StockList.propTypes = {
   list: PropTypes.arrayOf(
     PropTypes.shape({
       symbol: PropTypes.string.isRequired,
@@ -47,4 +47,4 @@ CompaniesList.propTypes = {
   updateFilter: PropTypes.func.isRequired,
 };
 
-export default connect(mapStockstoProps, { updateFilter })(CompaniesList);
+export default connect(mapStockstoProps, { updateFilter })(StockList);

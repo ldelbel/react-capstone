@@ -68,7 +68,7 @@ border-bottom-style: none;
 }
 `;
 
-const CompanyCard = props => {
+const StockCard = props => {
   const { profile } = props;
   const history = useHistory();
 
@@ -109,7 +109,7 @@ const CompanyCard = props => {
   );
 };
 
-CompanyCard.propTypes = {
+StockCard.propTypes = {
   profile: PropTypes.shape({
     symbol: PropTypes.string.isRequired,
     companyName: PropTypes.string.isRequired,
@@ -120,4 +120,4 @@ CompanyCard.propTypes = {
   }).isRequired,
 };
 
-export default CompanyCard;
+export default StockCard;

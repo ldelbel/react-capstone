@@ -1,12 +1,11 @@
 import React from 'react';
-import '../App.css';
-import CompaniesList from '../components/CompaniesList';
+import StockList from '../components/StockList';
 import Navbar from '../components/Navbar';
 
 const Home = () => (
   <div className="App">
     <Navbar />
-    <CompaniesList />
+    <StockList />
   </div>
 );
 
