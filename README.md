@@ -140,3 +140,4 @@ Give a ⭐️ if you like this project!
 - Microverse: [@microverse](https://www.microverse.org/)
 - React: [@react](https://reactjs.org/)
 - Financial Modeling Prep API: [@financialmodelingprep](https://financialmodelingprep.com/developer/)
+- Denys Chagaida's 'Pimp My Dog Online Store': [@pimp-my-DOG](https://www.behance.net/gallery/24531031/Pimp-my-DOG-Online-store-E-commerse-project)
