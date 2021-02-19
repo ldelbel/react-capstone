@@ -1,17 +1,16 @@
-import INITIAL_STATE from '../constants/initial';
-import { list } from '../API/api';
+// import INITIAL_STATE from '../constants/initial';
 
-let initialState = {};
+const initialState = [];
 
-if (!sessionStorage.getItem('state')) {
-  list().then(result => {
-    initalState = result;
-    sessionStorage.setItem('state', initialState);
-  } ).catch(err => err);
-} else {
-  initialState = INITIAL_STATE;
-}
-
-const stocksReducer = (state = initialState) => state;
+const stocksReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'fetchAPI':
+      return {
+        list: action.payload,
+      };
+    default:
+      return state;
+  }
+};
 
 export default stocksReducer;

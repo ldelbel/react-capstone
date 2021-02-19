@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
 import Routes from './Routes';
-import rootReducer from './reducer/index';
+import store from './store/store';
+import populateList from './store/async';
 
-const store = createStore(rootReducer);
+store.dispatch(populateList);
 
 ReactDOM.render(
   <React.StrictMode>
