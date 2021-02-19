@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar DOM renders correctly 1`] = `
+<nav
+  className="navbar navbar-light navbar-expand-md"
+  style={
+    Object {
+      "background": "var(--cyan)",
+    }
+  }
+>
+  <div
+    className="container-fluid"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      style={
+        Object {
+          "color": "var(--white)",
+          "fontFamily": "Alfa Slab One, cursive",
+          "fontSize": "35px",
+        }
+      }
+    >
+      StockList
+    </a>
+    <button
+      className="navbar-toggler"
+      data-target="#navcol-1"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="sr-only"
+      >
+        Toggle navigation
+      </span>
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="navcol-1"
+    >
+      <ul
+        className="nav navbar-nav"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

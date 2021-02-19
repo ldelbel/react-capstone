@@ -1,6 +1,6 @@
 const API_KEY = '?apikey=f25597924d4529b7e1d2e609c841a5aa';
 const PROFILE_URL = 'https://financialmodelingprep.com/api/v3/profile/';
-const LIST_URL = 'https://financialmodelingprep.com/api/v3/financial-statement-symbol-lists';
+const LIST_URL = 'https://financialmodelingprep.com/api/v3/stock-screener?limit=500';
 const QUOTE_URL = 'https://financialmodelingprep.com/api/v3/quote/';
 
 const profile = async company => {

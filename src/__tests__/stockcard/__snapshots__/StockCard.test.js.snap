@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StockCard DOM renders correctly 1`] = `
+<div
+  className="sc-bdfBwQ tSdqh"
+>
+  <div
+    className="d-flex flex-column justify-content-start align-items-center"
+    style={
+      Object {
+        "height": "75%",
+      }
+    }
+  >
+    <div
+      className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+    >
+      <div
+        className="d-flex align-items-center"
+        style={
+          Object {
+            "height": "100%",
+            "width": "50%",
+          }
+        }
+      >
+        <div
+          className="sc-dlfnbm eKBrhu"
+          style={
+            Object {
+              "backgroundImage": "url(https://financialmodelingprep.com/image-stock/AAPL.jpg)",
+            }
+          }
+        />
+      </div>
+      <div
+        className="d-flex flex-column justify-content-start align-items-end"
+        style={
+          Object {
+            "height": "100%",
+            "width": "50%",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "color": "var(--dark)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "25px",
+              "height": "30px",
+            }
+          }
+        >
+          AAPL
+        </span>
+        <span
+          style={
+            Object {
+              "color": "var(--blue)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "10px",
+            }
+          }
+        >
+          NASDAQ
+        </span>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "height": "55%",
+          "padding": "0",
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        className="d-flex align-items-end"
+        style={
+          Object {
+            "height": "40%",
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        <span
+          className="text-nowrap text-truncate flex-nowrap"
+          style={
+            Object {
+              "fontFamily": "Alata, sans-serif",
+              "fontSize": "18px",
+            }
+          }
+        >
+          Apple Inc
+        </span>
+      </div>
+      <div
+        className="d-flex flex-column justify-content-center align-items-end"
+        style={
+          Object {
+            "fontSize": "13px",
+            "height": "60%",
+          }
+        }
+      >
+        <div
+          className="sc-hKgILt fXVWRg"
+        >
+          <span>
+            Technology
+          </span>
+        </div>
+        <div
+          className="sc-eCssSg iVXGEU"
+        >
+          <span>
+            Consumer Electronics
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+  >
+    <button
+      className="sc-gKsewC jbnqRc btn btn-primary"
+      onClick={[Function]}
+      type="button"
+    >
+      Details
+    </button>
+    <span
+      style={
+        Object {
+          "color": "var(--yellow)",
+          "fontFamily": "Alfa Slab One, cursive",
+          "fontSize": "23px",
+        }
+      }
+    >
+      U$ 135.37
+    </span>
+  </div>
+</div>
+`;

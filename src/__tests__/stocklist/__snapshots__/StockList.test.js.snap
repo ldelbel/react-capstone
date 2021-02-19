@@ -1,0 +1,6825 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when store is provided 1`] = `
+<div
+  className="sc-iBPRYJ fmVwbk container"
+>
+  <div
+    style={
+      Object {
+        "background": "#343a40",
+        "borderTopLeftRadius": 20,
+        "borderTopRightRadius": 20,
+        "height": 120,
+        "padding": 15,
+        "paddingLeft": 30,
+        "paddingRight": 30,
+      }
+    }
+  >
+    <div>
+      <span
+        style={
+          Object {
+            "color": "var(--white)",
+            "fontFamily": "\\"Alfa Slab One\\", cursive",
+            "fontSize": 30,
+          }
+        }
+      >
+        Filters 
+      </span>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-center align-items-center"
+      style={
+        Object {
+          "height": 50,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginRight": 20,
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "color": "var(--light)",
+              "fontFamily": "Alata, sans-serif",
+              "fontSize": 20,
+              "marginRight": 10,
+            }
+          }
+        >
+          Price Range 
+        </span>
+        <select
+          defaultValue="null"
+          name="price"
+          onChange={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+            }
+          }
+        >
+          <option
+            value="null"
+          >
+            Select
+          </option>
+          <option
+            value={100}
+          >
+            &lt; 100
+          </option>
+          <option
+            value={200}
+          >
+            &lt; 200
+          </option>
+          <option
+            value={300}
+          >
+            &lt; 300
+          </option>
+          <option
+            value={500}
+          >
+            &lt; 500
+          </option>
+          <option
+            value={1000}
+          >
+            &lt; 1000
+          </option>
+          <option
+            value={2000}
+          >
+            &lt; 2000
+          </option>
+        </select>
+      </div>
+      <div
+        style={
+          Object {
+            "marginRight": 20,
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "color": "var(--light)",
+              "fontFamily": "Alata, sans-serif",
+              "fontSize": 20,
+              "marginRight": 10,
+            }
+          }
+        >
+          Sector 
+        </span>
+        <select
+          defaultValue="null"
+          name="sector"
+          onChange={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+            }
+          }
+        >
+          <option
+            value="null"
+          >
+            Select
+          </option>
+          <option
+            value="Aerospace & Defense"
+          >
+            Aerospace & Defense
+          </option>
+          <option
+            value="Airlines"
+          >
+            Airlines
+          </option>
+          <option
+            value="Auto Components"
+          >
+            Auto Components
+          </option>
+          <option
+            value="Automobiles"
+          >
+            Automobiles
+          </option>
+          <option
+            value="Banking"
+          >
+            Banking
+          </option>
+          <option
+            value="Basic Materials"
+          >
+            Basic Materials
+          </option>
+          <option
+            value="Beverages"
+          >
+            Beverages
+          </option>
+          <option
+            value="Biotechnology"
+          >
+            Biotechnology
+          </option>
+          <option
+            value="Building"
+          >
+            Building
+          </option>
+          <option
+            value="Chemicals"
+          >
+            Chemicals
+          </option>
+          <option
+            value="Commercial Services & Supplies"
+          >
+            Commercial Services & Supplies
+          </option>
+          <option
+            value="Communication Services"
+          >
+            Communication Services
+          </option>
+          <option
+            value="Communications"
+          >
+            Communications
+          </option>
+          <option
+            value="Construction"
+          >
+            Construction
+          </option>
+          <option
+            value="Consumer Cyclical"
+          >
+            Consumer Cyclical
+          </option>
+          <option
+            value="Consumer Defensive"
+          >
+            Consumer Defensive
+          </option>
+          <option
+            value="Consumer products"
+          >
+            Consumer products
+          </option>
+          <option
+            value="Distributors"
+          >
+            Distributors
+          </option>
+          <option
+            value="Diversified Consumer Services"
+          >
+            Diversified Consumer Services
+          </option>
+          <option
+            value="Electrical Equipment"
+          >
+            Electrical Equipment
+          </option>
+          <option
+            value="Energy"
+          >
+            Energy
+          </option>
+          <option
+            value="Financial"
+          >
+            Financial
+          </option>
+          <option
+            value="Financial Services"
+          >
+            Financial Services
+          </option>
+          <option
+            value="Food Products"
+          >
+            Food Products
+          </option>
+          <option
+            value="Health Care"
+          >
+            Health Care
+          </option>
+          <option
+            value="Healthcare"
+          >
+            Healthcare
+          </option>
+          <option
+            value="Hotels, Restaurants & Leisure"
+          >
+            Hotels, Restaurants & Leisure
+          </option>
+          <option
+            value="Industrial Conglomerates"
+          >
+            Industrial Conglomerates
+          </option>
+          <option
+            value="Industrial Goods"
+          >
+            Industrial Goods
+          </option>
+          <option
+            value="Industrials"
+          >
+            Industrials
+          </option>
+          <option
+            value="Insurance"
+          >
+            Insurance
+          </option>
+          <option
+            value="Leisure Products"
+          >
+            Leisure Products
+          </option>
+          <option
+            value="Life Sciences Tools & Services"
+          >
+            Life Sciences Tools & Services
+          </option>
+          <option
+            value="Logistics & Transportation"
+          >
+            Logistics & Transportation
+          </option>
+          <option
+            value="Machinery"
+          >
+            Machinery
+          </option>
+          <option
+            value="Marine"
+          >
+            Marine
+          </option>
+          <option
+            value="Media"
+          >
+            Media
+          </option>
+          <option
+            value="Metals & Mining"
+          >
+            Metals & Mining
+          </option>
+          <option
+            value="Packaging"
+          >
+            Packaging
+          </option>
+          <option
+            value="Paper & Forest"
+          >
+            Paper & Forest
+          </option>
+          <option
+            value="Pharmaceuticals"
+          >
+            Pharmaceuticals
+          </option>
+          <option
+            value="Professional Services"
+          >
+            Professional Services
+          </option>
+          <option
+            value="Real Estate"
+          >
+            Real Estate
+          </option>
+          <option
+            value="Retail"
+          >
+            Retail
+          </option>
+          <option
+            value="Road & Rail"
+          >
+            Road & Rail
+          </option>
+          <option
+            value="Semiconductors"
+          >
+            Semiconductors
+          </option>
+          <option
+            value="Technology"
+          >
+            Technology
+          </option>
+          <option
+            value="Telecommunication"
+          >
+            Telecommunication
+          </option>
+          <option
+            value="Textiles, Apparel & Luxury Goods"
+          >
+            Textiles, Apparel & Luxury Goods
+          </option>
+          <option
+            value="Tobacco"
+          >
+            Tobacco
+          </option>
+          <option
+            value="Trading Companies & Distributors"
+          >
+            Trading Companies & Distributors
+          </option>
+          <option
+            value="Transportation Infrastructure"
+          >
+            Transportation Infrastructure
+          </option>
+          <option
+            value="Utilities"
+          >
+            Utilities
+          </option>
+        </select>
+      </div>
+      <div
+        style={
+          Object {
+            "marginRight": 20,
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "color": "var(--light)",
+              "fontFamily": "Alata, sans-serif",
+              "fontSize": 20,
+              "marginRight": 10,
+            }
+          }
+        >
+          Country 
+        </span>
+        <select
+          defaultValue="null"
+          name="country"
+          onChange={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+            }
+          }
+        >
+          <option
+            value="null"
+          >
+            Select
+          </option>
+          <option
+            value="US"
+          >
+            US
+          </option>
+          <option
+            value="MX"
+          >
+            MX
+          </option>
+          <option
+            value="BR"
+          >
+            BR
+          </option>
+          <option
+            value="GB"
+          >
+            GB
+          </option>
+          <option
+            value="CN"
+          >
+            CN
+          </option>
+          <option
+            value="FI"
+          >
+            FI
+          </option>
+          <option
+            value="NL"
+          >
+            NL
+          </option>
+          <option
+            value="SG"
+          >
+            SG
+          </option>
+          <option
+            value="IN"
+          >
+            IN
+          </option>
+          <option
+            value="CA"
+          >
+            CA
+          </option>
+          <option
+            value="ZA"
+          >
+            ZA
+          </option>
+          <option
+            value="BM"
+          >
+            BM
+          </option>
+          <option
+            value="DE"
+          >
+            DE
+          </option>
+          <option
+            value="IE"
+          >
+            IE
+          </option>
+          <option
+            value="CH"
+          >
+            CH
+          </option>
+          <option
+            value="LU"
+          >
+            LU
+          </option>
+          <option
+            value="IL"
+          >
+            IL
+          </option>
+          <option
+            value="HK"
+          >
+            HK
+          </option>
+          <option
+            value="TW"
+          >
+            TW
+          </option>
+          <option
+            value="ES"
+          >
+            ES
+          </option>
+          <option
+            value="FR"
+          >
+            FR
+          </option>
+          <option
+            value="MC"
+          >
+            MC
+          </option>
+          <option
+            value="GR"
+          >
+            GR
+          </option>
+          <option
+            value="KR"
+          >
+            KR
+          </option>
+          <option
+            value="PR"
+          >
+            PR
+          </option>
+          <option
+            value="SE"
+          >
+            SE
+          </option>
+          <option
+            value="AU"
+          >
+            AU
+          </option>
+          <option
+            value="RU"
+          >
+            RU
+          </option>
+          <option
+            value="KY"
+          >
+            KY
+          </option>
+          <option
+            value="CL"
+          >
+            CL
+          </option>
+          <option
+            value="CO"
+          >
+            CO
+          </option>
+          <option
+            value="DK"
+          >
+            DK
+          </option>
+          <option
+            value="BE"
+          >
+            BE
+          </option>
+          <option
+            value="JP"
+          >
+            JP
+          </option>
+          <option
+            value="AR"
+          >
+            AR
+          </option>
+          <option
+            value="UY"
+          >
+            UY
+          </option>
+          <option
+            value="CZ"
+          >
+            CZ
+          </option>
+          <option
+            value="VI"
+          >
+            VI
+          </option>
+          <option
+            value="JE"
+          >
+            JE
+          </option>
+          <option
+            value="PA"
+          >
+            PA
+          </option>
+          <option
+            value="TH"
+          >
+            TH
+          </option>
+          <option
+            value="ID"
+          >
+            ID
+          </option>
+          <option
+            value="IT"
+          >
+            IT
+          </option>
+          <option
+            value="TR"
+          >
+            TR
+          </option>
+          <option
+            value="PH"
+          >
+            PH
+          </option>
+          <option
+            value="CY"
+          >
+            CY
+          </option>
+          <option
+            value="GG"
+          >
+            GG
+          </option>
+          <option
+            value="MO"
+          >
+            MO
+          </option>
+          <option
+            value="NZ"
+          >
+            NZ
+          </option>
+          <option
+            value="NO"
+          >
+            NO
+          </option>
+          <option
+            value="PE"
+          >
+            PE
+          </option>
+          <option
+            value="CR"
+          >
+            CR
+          </option>
+          <option
+            value="BS"
+          >
+            BS
+          </option>
+          <option
+            value="PT"
+          >
+            PT
+          </option>
+          <option
+            value="SN"
+          >
+            SN
+          </option>
+          <option
+            value="CI"
+          >
+            CI
+          </option>
+          <option
+            value="IS"
+          >
+            IS
+          </option>
+          <option
+            value="MA"
+          >
+            MA
+          </option>
+          <option
+            value="CW"
+          >
+            CW
+          </option>
+          <option
+            value="IM"
+          >
+            IM
+          </option>
+          <option
+            value="GA"
+          >
+            GA
+          </option>
+          <option
+            value="ZM"
+          >
+            ZM
+          </option>
+          <option
+            value="CK"
+          >
+            CK
+          </option>
+          <option
+            value="VG"
+          >
+            VG
+          </option>
+          <option
+            value="AE"
+          >
+            AE
+          </option>
+          <option
+            value="JO"
+          >
+            JO
+          </option>
+          <option
+            value="MT"
+          >
+            MT
+          </option>
+          <option
+            value="AT"
+          >
+            AT
+          </option>
+          <option
+            value="PL"
+          >
+            PL
+          </option>
+          <option
+            value="FO"
+          >
+            FO
+          </option>
+          <option
+            value="LI"
+          >
+            LI
+          </option>
+          <option
+            value="GI"
+          >
+            GI
+          </option>
+          <option
+            value="AZ"
+          >
+            AZ
+          </option>
+          <option
+            value="FK"
+          >
+            FK
+          </option>
+          <option
+            value="UA"
+          >
+            UA
+          </option>
+          <option
+            value="MY"
+          >
+            MY
+          </option>
+          <option
+            value="MU"
+          >
+            MU
+          </option>
+          <option
+            value="TC"
+          >
+            TC
+          </option>
+          <option
+            value="NG"
+          >
+            NG
+          </option>
+          <option
+            value="MN"
+          >
+            MN
+          </option>
+          <option
+            value="TG"
+          >
+            TG
+          </option>
+          <option
+            value="GE"
+          >
+            GE
+          </option>
+          <option
+            value="VN"
+          >
+            VN
+          </option>
+          <option
+            value="HU"
+          >
+            HU
+          </option>
+          <option
+            value="KH"
+          >
+            KH
+          </option>
+          <option
+            value="SB"
+          >
+            SB
+          </option>
+          <option
+            value="PG"
+          >
+            PG
+          </option>
+          <option
+            value="BB"
+          >
+            BB
+          </option>
+          <option
+            value="BD"
+          >
+            BD
+          </option>
+          <option
+            value="DO"
+          >
+            DO
+          </option>
+          <option
+            value="SK"
+          >
+            SK
+          </option>
+          <option
+            value="AI"
+          >
+            AI
+          </option>
+          <option
+            value="LT"
+          >
+            LT
+          </option>
+          <option
+            value="BG"
+          >
+            BG
+          </option>
+        </select>
+      </div>
+      <div
+        style={
+          Object {
+            "marginRight": 20,
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "color": "var(--light)",
+              "fontFamily": "Alata, sans-serif",
+              "fontSize": 20,
+              "marginRight": 10,
+            }
+          }
+        >
+          Exchange 
+        </span>
+        <select
+          defaultValue="null"
+          name="exchange"
+          onChange={[Function]}
+          style={
+            Object {
+              "borderRadius": 8,
+            }
+          }
+        >
+          <option
+            value="null"
+          >
+            Select
+          </option>
+          <option
+            value="NYSE"
+          >
+            NYSE
+          </option>
+          <option
+            value="NASDAQ"
+          >
+            NASDAQ
+          </option>
+          <option
+            value="AMEX"
+          >
+            AMEX
+          </option>
+          <option
+            value="EURONEX"
+          >
+            EURONEX
+          </option>
+          <option
+            value="TSX"
+          >
+            TSX
+          </option>
+          <option
+            value="ETF"
+          >
+            ETF
+          </option>
+          <option
+            value="MUTUAL FUND"
+          >
+            MUTUAL FUND
+          </option>
+        </select>
+      </div>
+      <button
+        className="btn"
+        onClick={[Function]}
+        style={
+          Object {
+            "background": "var(--yellow)",
+            "borderRadius": 15,
+            "borderStyle": "none",
+            "color": "var(--white)",
+            "fontFamily": "Alata, sans-serif",
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "paddingBottom": 6,
+            "paddingTop": 3,
+          }
+        }
+        type="button"
+      >
+        Apply
+      </button>
+    </div>
+  </div>
+  <div
+    className="d-flex flex-row justify-content-start flex-wrap"
+    style={
+      Object {
+        "background": "#17A2B8",
+        "borderBottomLeftRadius": "20px",
+        "borderBottomRightRadius": "20px",
+        "marginTop": "0",
+        "minHeight": "90px",
+        "paddingBottom": "15px",
+        "paddingLeft": "45px",
+        "paddingRight": "0",
+        "paddingTop": "0",
+      }
+    }
+  >
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/AAPL.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              AAPL
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Apple Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Consumer Electronics
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 135.37
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/AMZN.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              AMZN
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Amazon.com Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Consumer Cyclical
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Internet Retail
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 3277.71
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/GOOG.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              GOOG
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Alphabet Inc.
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Communication Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Internet Content & Information
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 2104.11
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/GOOGL.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              GOOGL
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Alphabet Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Communication Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Internet Content & Information
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 2095.03
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/TSLA.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              TSLA
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Tesla Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Consumer Cyclical
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Auto Manufacturers
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 816.12
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/FB.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              FB
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Facebook Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Communication Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Internet Content & Information
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 270.50
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/BABA.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              BABA
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Alibaba Group Holding Ltd
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Consumer Cyclical
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Internet Retail
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 267.85
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/JPM.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              JPM
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              JPMorgan Chase & Co
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Banks Diversified
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 141.25
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/NVDA.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              NVDA
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              NVIDIA Corp
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Semiconductors
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 598.45
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/PYPL.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              PYPL
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              PayPal Holdings Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Credit Services
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 298.37
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/DIS.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              DIS
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Walt Disney Co
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Consumer Cyclical
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Entertainment
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 187.67
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/MA.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              MA
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Mastercard Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Credit Services
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 341.00
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/HD.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              HD
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Home Depot Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Consumer Cyclical
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Home Improvement Retail
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 277.51
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/BAC.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              BAC
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Bank of America Corp
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Banks Diversified
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 33.37
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/ASML.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              ASML
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              ASML Holding N.V.
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Semiconductor Equipment & Materials
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 597.99
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/CRM.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              CRM
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Salesforce.Com Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Software Application
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 240.37
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/XOM.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              XOM
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Exxon Mobil Corp
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Energy
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Oil & Gas Integrated
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 50.52
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/TMO.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              TMO
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Thermo Fisher Scientific Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Healthcare
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Diagnostics & Research
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 507.83
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/CVX.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              CVX
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Chevron Corp
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Energy
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Oil & Gas Integrated
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 92.55
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/SHOP.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              SHOP
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Shopify Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Software Application
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 1455.49
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/ACN.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              ACN
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Accenture PLC
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Information Technology Services
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 257.47
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/QCOM.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              QCOM
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Qualcomm Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Semiconductors
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 147.98
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/TXN.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              TXN
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Texas Instruments Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Semiconductors
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 179.64
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/SAP.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              SAP
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              SAP SE ADS
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Software Application
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 131.93
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/JD.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              JD
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              JD.com Inc.
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Consumer Cyclical
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Internet Retail
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 99.31
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/HON.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              HON
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Honeywell International Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Industrials
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Specialty Industrial Machinery
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 203.57
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/UNP.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              UNP
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Union Pacific Corp
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Industrials
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Railroads
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 213.16
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/SE.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              SE
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Sea Ltd
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Communication Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Electronic Gaming & Multimedia
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 276.12
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/UPS.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              UPS
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              United Parcel Service Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Industrials
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Integrated Freight & Logistics
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 163.39
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/SNE.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              SNE
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Sony Corporation
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Consumer Electronics
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 113.53
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/WFC.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              WFC
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Wells Fargo & Co
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Banks Diversified
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 33.53
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/MS.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              MS
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Morgan Stanley
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Capital Markets
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 74.61
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/C.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              C
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Citigroup Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Banks Diversified
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 63.63
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/UTX.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              UTX
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              United Technologies Corporation
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Industrials
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Aerospace & Defense
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 86.01
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/LOW.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              LOW
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Lowe\`s Companies Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Consumer Cyclical
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Home Improvement Retail
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 177.16
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/VSM.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              VSM
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Versum Materials Inc.
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Basic Materials
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Chemicals
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 10.31
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/LFC.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              LFC
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              China Life Insurance Company Limited American Depositary Shares
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Financial Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Insurance Life
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 10.67
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/BA.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              BA
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Boeing Co
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Industrials
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Aerospace & Defense
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 210.98
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/SQ.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              SQ
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NYSE
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Square Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Technology
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Software Infrastructure
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 272.75
+        </span>
+      </div>
+    </div>
+    <div
+      className="sc-bdfBwQ tSdqh"
+    >
+      <div
+        className="d-flex flex-column justify-content-start align-items-center"
+        style={
+          Object {
+            "height": "75%",
+          }
+        }
+      >
+        <div
+          className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
+        >
+          <div
+            className="d-flex align-items-center"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <div
+              className="sc-dlfnbm eKBrhu"
+              style={
+                Object {
+                  "backgroundImage": "url(https://financialmodelingprep.com/image-stock/CHTR.jpg)",
+                }
+              }
+            />
+          </div>
+          <div
+            className="d-flex flex-column justify-content-start align-items-end"
+            style={
+              Object {
+                "height": "100%",
+                "width": "50%",
+              }
+            }
+          >
+            <span
+              style={
+                Object {
+                  "color": "var(--dark)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "25px",
+                  "height": "30px",
+                }
+              }
+            >
+              CHTR
+            </span>
+            <span
+              style={
+                Object {
+                  "color": "var(--blue)",
+                  "fontFamily": "Alfa Slab One, cursive",
+                  "fontSize": "10px",
+                }
+              }
+            >
+              NASDAQ
+            </span>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "height": "55%",
+              "padding": "0",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="d-flex align-items-end"
+            style={
+              Object {
+                "height": "40%",
+                "paddingLeft": "10px",
+              }
+            }
+          >
+            <span
+              className="text-nowrap text-truncate flex-nowrap"
+              style={
+                Object {
+                  "fontFamily": "Alata, sans-serif",
+                  "fontSize": "18px",
+                }
+              }
+            >
+              Charter Communications Inc
+            </span>
+          </div>
+          <div
+            className="d-flex flex-column justify-content-center align-items-end"
+            style={
+              Object {
+                "fontSize": "13px",
+                "height": "60%",
+              }
+            }
+          >
+            <div
+              className="sc-hKgILt fXVWRg"
+            >
+              <span>
+                Communication Services
+              </span>
+            </div>
+            <div
+              className="sc-eCssSg iVXGEU"
+            >
+              <span>
+                Entertainment
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-jSgupP foFzOL d-flex flex-row justify-content-around align-items-center"
+      >
+        <button
+          className="sc-gKsewC jbnqRc btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Details
+        </button>
+        <span
+          style={
+            Object {
+              "color": "var(--yellow)",
+              "fontFamily": "Alfa Slab One, cursive",
+              "fontSize": "23px",
+            }
+          }
+        >
+          U$ 613.45
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

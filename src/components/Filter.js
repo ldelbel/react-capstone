@@ -14,7 +14,6 @@ const Filter = props => {
 
   const handleChange = target => {
     const { value } = target.options[target.selectedIndex];
-    console.log(filter);
     switch (target.name) {
       case 'price':
         setFilter({ ...filter, price: value === 'null' ? null : value });

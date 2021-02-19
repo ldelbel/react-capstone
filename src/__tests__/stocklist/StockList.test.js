@@ -1,12 +1,16 @@
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
 import renderer from 'react-test-renderer';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 import StockList from '../../components/StockList';
+import rootReducer from '../../reducer/index';
 
-it('renders correctly', () => {
-  const navbar = renderer.create(
-    <BrowserRouter>
+it('renders correctly when store is provided', () => {
+  const store = createStore(rootReducer);
+  const stockList = renderer.create(
+    <Provider store={store}>
       <StockList />
-    </BrowserRouter>,
+    </Provider>,
   ).toJSON();
-  expect(navbar).toMatchSnapshot();
+  expect(stockList).toMatchSnapshot();
 });

@@ -1,12 +1,31 @@
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
 import renderer from 'react-test-renderer';
+import '@testing-library/jest-dom/extend-expect';
+import { render } from '@testing-library/react';
 import Filter from '../../components/Filter';
+import updateFilter from '../../actions/index';
 
-it('renders correctly', () => {
-  const navbar = renderer.create(
-    <BrowserRouter>
-      <Filter />
-    </BrowserRouter>,
-  ).toJSON();
-  expect(navbar).toMatchSnapshot();
+describe('Filter DOM', () => {
+  it('renders correctly', () => {
+    const filter = renderer.create(
+      <Filter handleUpdateFilter={updateFilter} />,
+    ).toJSON();
+    expect(filter).toMatchSnapshot();
+  });
+
+  it('has a span with Filters', () => {
+    const { container } = render(<Filter handleUpdateFilter={updateFilter} />);
+    expect(container.firstChild.firstChild.firstChild.nodeName).toBe('SPAN');
+    expect(container.firstChild.firstChild.firstChild).toHaveTextContent('Filters');
+  });
+
+  it('has 4 select fields', () => {
+    const { container } = render(<Filter handleUpdateFilter={updateFilter} />);
+    expect(container.getElementsByTagName('select').length).toBe(4);
+  });
+
+  it('has Apply Button', () => {
+    const { container } = render(<Filter handleUpdateFilter={updateFilter} />);
+    expect(container.getElementsByTagName('button')[0]).toHaveTextContent('Apply');
+  });
 });

@@ -1,15 +1,20 @@
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
 import renderer from 'react-test-renderer';
 import { render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import StockCard from '../../components/StockCard';
+import profileTest from '../../constants/testHelper';
 
-describe('StockCard component integrity', () => { 
+describe('StockCard DOM', () => {
   it('renders correctly', () => {
-    const navbar = renderer.create(
-      <BrowserRouter>
-        <StockCard />
-      </BrowserRouter>,
+    const stockCard = renderer.create(
+      <StockCard profile={profileTest} />,
     ).toJSON();
-    expect(navbar).toMatchSnapshot();
+    expect(stockCard).toMatchSnapshot();
+  });
+
+  it('Has details button', () => {
+    const { container } = render(<StockCard profile={profileTest} />);
+    expect(container.getElementsByTagName('button')[0]).toHaveTextContent('Details');
   });
 });
