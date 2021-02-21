@@ -13,6 +13,12 @@ code {
     monospace;
 }
 
+button:focus,
+select:focus, {
+  outline: none !important;
+  border: none !important;
+}
+
 .no-outline:focus {
   outline: none "important";
 }
