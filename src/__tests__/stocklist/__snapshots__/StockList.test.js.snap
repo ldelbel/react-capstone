@@ -1016,7 +1016,7 @@ exports[`renders correctly when store is provided 1`] = `
         "paddingBottom": "15px",
         "paddingLeft": "45px",
         "paddingRight": "0",
-        "paddingTop": "0",
+        "paddingTop": "10px",
       }
     }
   >

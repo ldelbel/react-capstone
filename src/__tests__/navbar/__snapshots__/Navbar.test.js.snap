@@ -53,6 +53,12 @@ exports[`Navbar DOM renders correctly 1`] = `
           <a
             className="nav-link active"
             href="/"
+            style={
+              Object {
+                "color": "white",
+                "marginLeft": "50px",
+              }
+            }
           >
             Home
           </a>
