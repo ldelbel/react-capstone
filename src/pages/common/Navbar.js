@@ -10,7 +10,7 @@ const Navbar = () => (
       </button>
       <div className="collapse navbar-collapse" id="navcol-1">
         <ul className="nav navbar-nav">
-          <li className="nav-item"><a className="nav-link active" href="/">Home</a></li>
+          <li className="nav-item"><a className="nav-link active" href="/" style={{ color: 'white', marginLeft: '50px' }}>Home</a></li>
         </ul>
       </div>
     </div>

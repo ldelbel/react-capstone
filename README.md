@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/ldelbel/react-capstone">
-    <img src="logo.png" alt="Logo" width="200">
+    <img src="src/pages/assets/logo.png" alt="Logo" width="200">
   </a>
 
   <h3 align="center">Catalogue of Stocks with Real-time information<h3>
