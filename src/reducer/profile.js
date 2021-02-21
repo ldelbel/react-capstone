@@ -1,5 +1,3 @@
-// import INITIAL_STATE from '../constants/initial';
-
 const initialState = [];
 
 const stocksReducer = (state = initialState, action) => {
