@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import '@testing-library/jest-dom/extend-expect';
 import { render } from '@testing-library/react';
-import Filter from '../../components/Filter';
+import Filter from '../../pages/home/components/Filter';
 import updateFilter from '../../actions/index';
 
 describe('Filter DOM', () => {

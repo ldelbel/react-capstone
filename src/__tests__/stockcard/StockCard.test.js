@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import StockCard from '../../components/StockCard';
+import StockCard from '../../pages/home/components/StockCard';
 import profileTest from '../../constants/testHelper';
 
 describe('StockCard DOM', () => {

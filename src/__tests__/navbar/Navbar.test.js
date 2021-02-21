@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Navbar from '../../components/Navbar';
+import Navbar from '../../pages/common/Navbar';
 
 describe('Navbar DOM', () => {
   it('renders correctly', () => {

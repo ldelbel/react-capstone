@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
   COUNTRIES, SECTORS, EXCHANGES, PRICES,
-} from '../constants/index';
+} from '../../../constants/index';
 
 const Filter = props => {
   const [filter, setFilter] = useState({
