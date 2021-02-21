@@ -77,7 +77,7 @@ This project was built following the rules of [ESLint](https://eslint.org/) and 
 
 ## Live Demo Link <a name = "ldl"></a>
 
-[Live Demo]()
+[Live Demo](https://stocklist-capstone.herokuapp.com/)
 
 ## 🔧 Built with <a name = "with"></a>
 
