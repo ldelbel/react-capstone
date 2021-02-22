@@ -5,9 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../../common/components/Navbar';
 import { quote } from '../../API/api';
-import DetailsMainContent from './components/DetailsMainContent';
-import DetailsQuoteContent from './components/DetailsQuoteContent';
+import DetailsMainContent from './components/detailsmaincontent/DetailsMainContent';
+import DetailsQuoteContent from './components/detailsquotecontent/DetailsQuoteContent';
 import LoadingDiv from '../../common/components/Loading';
+import styles from './Details.module.scss';
 
 const Details = () => {
   const { symbol } = useParams();
@@ -28,38 +29,17 @@ const Details = () => {
     <div>
       <Navbar />
       <button
-        className="no-outline"
+        className={styles.backBtn}
         type="button"
         onClick={() => history.goBack()}
-        style={{
-          position: 'absolute',
-          backgroundColor: '#17A2B8',
-          width: '5%',
-          height: '7%',
-          top: '150px',
-          border: 'none',
-          borderBottomRightRadius: '10px',
-          borderTopRightRadius: '10px',
-          color: 'var(--light)',
-          fontFamily: 'Alfa Slab One, cursive',
-          display: 'flex',
-          alignItems: 'center',
-          paddingLeft: '1.5%',
-        }}
       >
         <FontAwesomeIcon icon={faLongArrowAltLeft} size="3x" />
       </button>
-      <div className="container d-flex flex-row justify-content-between" style={{ marginTop: 30, height: '75vh', width: '95%' }}>
-        <div style={{
-          height: '100%', width: '69%', background: 'rgba(108,117,125,0.16)', borderRadius: 20, padding: 20,
-        }}
-        >
+      <div className={`container d-flex flex-row justify-content-between ${styles.details}`}>
+        <div className={styles.details__main}>
           { isFetching ? <LoadingDiv color="#343A40" /> : <DetailsMainContent state={state} />}
         </div>
-        <div style={{
-          height: '100%', width: '30%', background: 'var(--dark)', borderRadius: 20, padding: 20, paddingTop: 10,
-        }}
-        >
+        <div className={styles.details__quote}>
           { isFetching ? <LoadingDiv color="var(--light)" /> : <DetailsQuoteContent state={state} />}
         </div>
       </div>

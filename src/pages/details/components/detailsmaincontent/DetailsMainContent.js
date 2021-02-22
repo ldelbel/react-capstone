@@ -1,48 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './DetailsMain.module.scss';
 
 const DetailsMainContent = props => {
   const { state } = props;
   return (
     <>
       <div
-        className="d-flex flex-row justify-content-between align-items-center"
-        style={{
-          height: '15%', width: '100%', fontSize: 40, fontFamily: '"Alfa Slab One", cursive', borderStyle: 'none', borderBottomStyle: 'solid',
-        }}
+        className={`d-flex flex-row justify-content-between align-items-center ${styles.title}`}
       >
-        <span style={{ fontSize: 50, height: 60 }}>{state.symbol}</span>
+        <span>{state.symbol}</span>
       </div>
-      <div style={{ height: '5%', marginBottom: 20 }}><span style={{ color: 'var(--blue)', fontFamily: '"Alfa Slab One", cursive' }}>{state.exchange}</span></div>
-      <div className="d-flex flex-row" style={{ height: '80%' }}>
-        <div style={{
-          background: 'var(--dark)', width: '61%', height: '90%', borderRadius: 20, padding: 15,
-        }}
-        >
-          <div className="d-flex flex-row justify-content-between">
-            <span style={{
-              fontSize: 20, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', marginRight: 0, color: 'var(--light)',
-            }}
-            >
+      <div className={styles.subtitle}><span>{state.exchange}</span></div>
+      <div className={`d-flex flex-row ${styles.content}`}>
+        <div className={styles.content__mkt}>
+          <div className={styles.content__mkt__line}>
+            <span className={styles.content__mkt__line__tag}>
               MktCap:
             </span>
             <span
-              className="d-lg-flex align-items-lg-end"
-              style={{
-                fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)', borderTopColor: 'var(--green)',
-              }}
+              className={`d-lg-flex align-items-lg-end ${styles.content__mkt__line__value_g}`}
             >
               {`U$ ${state.marketCap.toFixed(2)}`}
             </span>
           </div>
-          <div className="d-flex flex-row justify-content-between">
-            <span style={{
-              fontSize: 20, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', marginRight: 20, color: 'var(--light)',
-            }}
-            >
+          <div className={styles.content__mkt__line}>
+            <span className={styles.content__mkt__line__tag}>
               SharesOut:
             </span>
-            <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>{state.sharesOutstanding}</span>
+            <span className={styles.content__mkt__line__value_b}>{state.sharesOutstanding}</span>
           </div>
           <div className="d-flex flex-row justify-content-center" style={{ borderTopStyle: 'solid', borderTopColor: 'var(--light)' }}>
             <span style={{
@@ -52,41 +38,29 @@ const DetailsMainContent = props => {
               Transactions
             </span>
           </div>
-          <div className="d-flex flex-row justify-content-between">
-            <span style={{
-              fontSize: 20, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', marginRight: 20, color: 'var(--light)',
-            }}
-            >
+          <div className={styles.content__mkt__line}>
+            <span className={styles.content__mkt__line__tag}>
               Volume:
             </span>
-            <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>{state.volume}</span>
+            <span className={styles.content__mkt__line__value_b}>{state.volume}</span>
           </div>
-          <div className="d-flex flex-row justify-content-between">
-            <span style={{
-              fontSize: 20, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', marginRight: 20, color: 'var(--light)',
-            }}
-            >
+          <div className={styles.content__mkt__line}>
+            <span className={styles.content__mkt__line__tag}>
               AvgVolume:
             </span>
-            <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--blue)' }}>{state.avgVolume}</span>
+            <span className={styles.content__mkt__line__value_b}>{state.avgVolume}</span>
           </div>
-          <div className="d-flex flex-row justify-content-between">
-            <span style={{
-              fontSize: 20, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', marginRight: 20, color: 'var(--light)',
-            }}
-            >
+          <div className={styles.content__mkt__line}>
+            <span className={styles.content__mkt__line__tag}>
               PriceAvg50:
             </span>
-            <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)' }}>{`U$ ${state.priceAvg50.toFixed(2)}`}</span>
+            <span className={styles.content__mkt__line__value_g}>{`U$ ${state.priceAvg50.toFixed(2)}`}</span>
           </div>
-          <div className="d-flex flex-row justify-content-between">
-            <span style={{
-              fontSize: 20, fontFamily: 'Alata, sans-serif', fontWeight: 'bold', marginRight: 20, color: 'var(--light)',
-            }}
-            >
+          <div className={styles.content__mkt__line}>
+            <span className={styles.content__mkt__line__tag}>
               PriceAvg200:
             </span>
-            <span style={{ fontSize: 18, fontFamily: 'Alata, sans-serif', color: 'var(--success)' }}>{`U$ ${state.priceAvg200.toFixed(2)}`}</span>
+            <span className={styles.content__mkt__line__value_g}>{`U$ ${state.priceAvg200.toFixed(2)}`}</span>
           </div>
         </div>
         <div style={{

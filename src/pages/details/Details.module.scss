@@ -1,0 +1,38 @@
+.backBtn {
+  position: absolute;
+  background-color: #17a2b8;
+  width: 5%;
+  height: 7%;
+  top: 150px;
+  border: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  color: var(--light);
+  font-family: 'Alfa Slab One', cursive;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5%;
+}
+
+.details {
+  margin-top: 30px;
+  height: 75vh;
+  width: 95%;
+
+  &__main {
+    height: 100%;
+    width: 69%;
+    background: rgba(108, 117, 125, 0.16);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  &__quote {
+    height: 100%;
+    width: 30%;
+    background: var(--dark);
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 10px;
+  }
+}

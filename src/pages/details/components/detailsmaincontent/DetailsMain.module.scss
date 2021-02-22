@@ -1,0 +1,65 @@
+.title {
+  height: 15%;
+  width: 100%;
+  font-size: 40px;
+  font-family: 'Alfa Slab One', cursive;
+  border-style: none;
+  border-bottom-style: solid;
+
+  span {
+    font-size: 50px;
+    height: 60px;
+  }
+}
+
+.subtitle {
+  height: 5%;
+  margin-bottom: 20px;
+
+  span {
+    color: var(--blue);
+    font-family: 'Alfa Slab One', cursive;
+  }
+}
+
+.content {
+  height: 80%;
+
+  &__mkt {
+    background: var(--dark);
+    width: 61%;
+    height: 90%;
+    border-radius: 20px;
+    padding: 15px;
+
+    &__line {
+      display: flex;
+      justify-content: space-between;
+
+      &__tag {
+        font-size: 20px;
+        font-family: 'Alata', sans-serif;
+        font-weight: bold;
+        margin-right: 0;
+        color: var(--light);
+      }
+
+      &__value {
+        font-size: 18px;
+        font-family: 'Alata', sans-serif;
+
+        &_g {
+          @extend .content__mkt__line__value;
+
+          color: var(--success);
+        }
+
+        &_b {
+          @extend .content__mkt__line__value;
+
+          color: var(--blue);
+        }
+      }
+    }
+  }
+}
