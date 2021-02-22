@@ -125,7 +125,7 @@ If your default browser doesn't open automatically, visit http://localhost/3000.
 To run the tests, use the command below
 
 ```
-$ yarn tests
+$ yarn test
 
 ```
 
