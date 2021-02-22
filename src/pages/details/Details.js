@@ -3,11 +3,11 @@ import { useParams } from 'react-router';
 import { useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons';
-import Navbar from '../common/Navbar';
+import Navbar from '../../common/components/Navbar';
 import { quote } from '../../API/api';
 import DetailsMainContent from './components/DetailsMainContent';
 import DetailsQuoteContent from './components/DetailsQuoteContent';
-import LoadingDiv from '../common/Loading';
+import LoadingDiv from '../../common/components/Loading';
 
 const Details = () => {
   const { symbol } = useParams();

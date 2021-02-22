@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { useHistory } from 'react-router-dom';
+import styles from './StockCard.module.scss';
 
 const StyledDiv1 = styled.div`
   width: 31%;
@@ -78,12 +79,12 @@ const StockCard = props => {
 
   return (
     <StyledDiv1>
-      <div className="d-flex flex-column justify-content-start align-items-center" style={{ height: '75%' }}>
+      <div className="d-flex flex-column justify-content-start align-items-center h-75">
         <StyledDiv2 className="d-flex flex-row align-items-center">
-          <div className="d-flex align-items-center" style={{ width: '50%', height: '100%' }}>
+          <div className="d-flex align-items-center w-50 h-100">
             <StyledDiv3 style={{ backgroundImage: `url(https://financialmodelingprep.com/image-stock/${profile.symbol}.jpg)` }} />
           </div>
-          <div className="d-flex flex-column justify-content-start align-items-end" style={{ width: '50%', height: '100%' }}>
+          <div className="d-flex flex-column justify-content-start align-items-end w-50 h-100">
             <span style={{
               fontFamily: 'Alfa Slab One, cursive', fontSize: '25px', color: 'var(--dark)', height: '30px',
             }}
@@ -93,9 +94,13 @@ const StockCard = props => {
             <span style={{ color: 'var(--blue)', fontFamily: 'Alfa Slab One, cursive', fontSize: '10px' }}>{profile.exchangeShortName}</span>
           </div>
         </StyledDiv2>
-        <div style={{ height: '55%', width: '100%', padding: '0' }}>
-          <div className="d-flex align-items-end" style={{ height: '40%', paddingLeft: '10px' }}><span className="text-nowrap text-truncate flex-nowrap" style={{ fontFamily: 'Alata, sans-serif', fontSize: '18px' }}>{profile.companyName}</span></div>
-          <div className="d-flex flex-column justify-content-center align-items-end" style={{ height: '60%', fontSize: '13px' }}>
+        <div className={`w-100 p-0 ${styles.h55}`}>
+          <div className={`d-flex align-items-end ${styles.h40pl10}`}>
+            <span className={`text-nowrap text-truncate flex-nowrap ${styles.ffafs18}`}>
+              {profile.companyName}
+            </span>
+          </div>
+          <div className={`d-flex flex-column justify-content-center align-items-end ${styles.h60fs13}`}>
             <StyledDiv4><span>{profile.sector}</span></StyledDiv4>
             <StyledDiv5><span>{profile.industry}</span></StyledDiv5>
           </div>
@@ -103,7 +108,7 @@ const StockCard = props => {
       </div>
       <StyledDiv6 className="d-flex flex-row justify-content-around align-items-center">
         <StyledBtn1 className="btn btn-primary" type="button" onClick={handleClick}>Details</StyledBtn1>
-        <span style={{ fontFamily: 'Alfa Slab One, cursive', color: 'var(--yellow)', fontSize: '23px' }}>{`U$ ${profile.price.toFixed(2)}`}</span>
+        <span className={styles.ffacyfs23}>{`U$ ${profile.price.toFixed(2)}`}</span>
       </StyledDiv6>
     </StyledDiv1>
   );

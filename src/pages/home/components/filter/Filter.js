@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
   COUNTRIES, SECTORS, EXCHANGES, PRICES,
-} from '../../../constants/index';
+} from '../../../../constants/index';
+import styles from './Filter.module.scss';
 
 const Filter = props => {
   const [filter, setFilter] = useState({
@@ -37,21 +38,14 @@ const Filter = props => {
   };
 
   return (
-    <div style={{
-      height: 120, background: '#343a40', borderTopLeftRadius: 20, borderTopRightRadius: 20, padding: 15, paddingRight: 30, paddingLeft: 30,
-    }}
-    >
-      <div><span style={{ fontFamily: '"Alfa Slab One", cursive', color: 'var(--white)', fontSize: 30 }}>Filters&nbsp;</span></div>
-      <div className="d-flex flex-row justify-content-center align-items-center" style={{ height: 50 }}>
-        <div style={{ marginRight: 20 }}>
-          <span style={{
-            fontFamily: 'Alata, sans-serif', color: 'var(--light)', fontSize: 20, marginRight: 10,
-          }}
-          >
+    <div className={styles.filter}>
+      <div className={styles.filter__title}><span>Filters&nbsp;</span></div>
+      <div className={`d-flex flex-row justify-content-center align-items-center ${styles.filter__body}`}>
+        <div className={styles.filter__body__div}>
+          <span>
             Price Range&nbsp;
           </span>
           <select
-            style={{ borderRadius: 8 }}
             defaultValue="null"
             onChange={e => handleChange(e.target)}
             name="price"
@@ -67,18 +61,13 @@ const Filter = props => {
                 {`< ${price}`}
               </option>
             ))}
-
           </select>
         </div>
-        <div style={{ marginRight: 20 }}>
-          <span style={{
-            fontFamily: 'Alata, sans-serif', color: 'var(--light)', fontSize: 20, marginRight: 10,
-          }}
-          >
+        <div className={styles.filter__body__div}>
+          <span>
             Sector&nbsp;
           </span>
           <select
-            style={{ borderRadius: 8 }}
             onChange={e => handleChange(e.target)}
             name="sector"
             defaultValue="null"
@@ -91,15 +80,11 @@ const Filter = props => {
             ))}
           </select>
         </div>
-        <div style={{ marginRight: 20 }}>
-          <span style={{
-            fontFamily: 'Alata, sans-serif', color: 'var(--light)', fontSize: 20, marginRight: 10,
-          }}
-          >
+        <div className={styles.filter__body__div}>
+          <span>
             Country&nbsp;
           </span>
           <select
-            style={{ borderRadius: 8 }}
             onChange={e => handleChange(e.target)}
             name="country"
             defaultValue="null"
@@ -112,15 +97,11 @@ const Filter = props => {
             ))}
           </select>
         </div>
-        <div style={{ marginRight: 20 }}>
-          <span style={{
-            fontFamily: 'Alata, sans-serif', color: 'var(--light)', fontSize: 20, marginRight: 10,
-          }}
-          >
+        <div className={styles.filter__body__div}>
+          <span>
             Exchange&nbsp;
           </span>
           <select
-            style={{ borderRadius: 8 }}
             onChange={e => handleChange(e.target)}
             name="exchange"
             defaultValue="null"
@@ -134,12 +115,9 @@ const Filter = props => {
           </select>
         </div>
         <button
-          className="btn"
+          className={`btn ${styles.filter__body__btn}`}
           type="button"
           onClick={handleSubmit}
-          style={{
-            fontFamily: 'Alata, sans-serif', fontSize: 20, color: 'var(--white)', background: 'var(--yellow)', borderStyle: 'none', paddingTop: 3, paddingBottom: 6, fontWeight: 'bold', borderRadius: 15,
-          }}
         >
           Apply
         </button>

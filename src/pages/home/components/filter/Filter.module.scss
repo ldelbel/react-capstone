@@ -1,0 +1,48 @@
+.filter {
+  height: 120px;
+  background: #343a40;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  
+  &__title {
+    span {
+      font-family: 'Alfa Slab One', cursive;
+      color: var(--white);
+      font-size: 30px;
+    }
+  }
+  
+  &__body {
+    height: 50px;
+
+    &__div {
+      margin-right: 20px;
+
+      span {
+        font-family: 'Alata', sans-serif;
+        color: var(--light);
+        font-size: 20px;
+        margin-right: 10px;
+      }
+
+      select {
+        border-radius: 8px;
+      }
+    }
+
+    &_btn {
+      font-family: 'Alata', sans-serif;
+      font-size: 20px;
+      color: var(--white);
+      background: var(--yellow);
+      border-style: none;
+      padding-top: 3px;
+      padding-bottom: 6px;
+      font-weight: bold;
+      border-radius: 15px;
+    }
+  }
+}
