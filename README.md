@@ -43,11 +43,13 @@
 
 This project is the React & Redux Capstone Project required for completing the React & Redux module at [Microverse](https://www.microverse.org/).
 
-The capstone project is performed under time restrictions and presents business-like specifications to be followed. The goal is to simulate as much as possible the real conditions of business situations and practice professional execution.  
+The capstone project is performed under time restrictions and presents business-like specifications to be followed. The goal is to simulate as much as possible the real conditions of business situations and practice professional execution.
+
+The specifications of this project can be found in [Catalogue of Dog Clothes](https://www.notion.so/Catalogue-of-Dog-Clothes-8bf1512b8ab34fa28848beb8ab698a32).
 
 ## Technical Requirements <a name = "require"></a>
 
-The original specification and design for the project followed those of [Denys Chagaida's 'Pimp My Dog Online Store'](https://www.notion.so/Catalogue-of-Dog-Clothes-8bf1512b8ab34fa28848beb8ab698a32), however it is not required to follow the design and we are supposed to change the theme of the project. I chose to make a catalogue of stocks so I could have a grasp on the subject of finance, in which I'm interested.
+The original specification and design for the project followed those of [Denys Chagaida's 'Pimp My Dog Online Store'](https://www.behance.net/gallery/24531031/Pimp-my-DOG-Online-store-E-commerse-project), however it is not required to follow the design and we are supposed to change the theme of the project. I chose to make a catalogue of stocks so I could have a grasp on the subject of finance, in which I'm interested.
 
 The provided requirements stated that we must build the page with at least two types of pages:
 
@@ -60,7 +62,7 @@ Additionally, our app must collect data externally using asynchronous API calls.
 
 ### File Structure
 
-The structure used in this project was the [Flat Structure](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase), because it fullfill the needs of the project based on it's size and complexity.
+The structure used in this project was the improved [Flat Structure](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase), because it fullfills the needs of the project based on it's size and complexity.
 
 ### State Management
 
@@ -117,6 +119,17 @@ $ yarn start
 ```
 
 If your default browser doesn't open automatically, visit http://localhost/3000.
+
+## 🔨 Testing
+
+To run the tests, use the command below
+
+```
+$ yarn tests
+
+```
+
+Which will run the tests using Jest and React Testing Library.
 
 ## ✒️ Author <a name = "author"></a>
 
