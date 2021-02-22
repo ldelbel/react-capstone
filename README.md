@@ -45,7 +45,7 @@ This project is the React & Redux Capstone Project required for completing the R
 
 The capstone project is performed under time restrictions and presents business-like specifications to be followed. The goal is to simulate as much as possible the real conditions of business situations and practice professional execution.
 
-The specifications of this project can be found in [Catalogue of Dog Clothes](https://www.notion.so/Catalogue-of-Dog-Clothes-8bf1512b8ab34fa28848beb8ab698a32).
+The specifications of this project can be found in the [Catalogue of Dog Clothes](https://www.notion.so/Catalogue-of-Dog-Clothes-8bf1512b8ab34fa28848beb8ab698a32).
 
 ## Technical Requirements <a name = "require"></a>
 
