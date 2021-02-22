@@ -49,7 +49,7 @@ The specifications of this project can be found in the [Catalogue of Dog Clothes
 
 ## Technical Requirements <a name = "require"></a>
 
-The original specification and design for the project followed those of [Denys Chagaida's 'Pimp My Dog Online Store'](https://www.behance.net/gallery/24531031/Pimp-my-DOG-Online-store-E-commerse-project), however it is not required to follow the design and we are supposed to change the theme of the project. I chose to make a catalogue of stocks so I could have a grasp on the subject of finance, in which I'm interested.
+The original specification and design for the project followed those of [Denys Chagaida's 'Pimp My Dog Online Store'](https://www.behance.net/gallery/24531031/Pimp-my-DOG-Online-store-E-commerse-project), however, it is not required to follow the design and we are supposed to change the theme of the project. I chose to make a catalog of stocks so I could have a grasp on the subject of finance, in which I'm interested.
 
 The provided requirements stated that we must build the page with at least two types of pages:
 
@@ -62,7 +62,7 @@ Additionally, our app must collect data externally using asynchronous API calls.
 
 ### File Structure
 
-The structure used in this project was the improved [Flat Structure](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase), because it fullfills the needs of the project based on it's size and complexity.
+The structure used in this project was the improved [Flat Structure](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase) because it fulfills the needs of the project based on its size and complexity.
 
 ### State Management
 
