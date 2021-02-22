@@ -62,7 +62,7 @@ Additionally, our app must collect data externally using asynchronous API calls.
 
 ### File Structure
 
-The structure used in this project was the [Flat Structure](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase), because it fullfill the needs of the project based on it's size and complexity.
+The structure used in this project was the improved [Flat Structure](https://www.pluralsight.com/guides/how-to-organize-your-react-+-redux-codebase), because it fullfills the needs of the project based on it's size and complexity.
 
 ### State Management
 
@@ -119,6 +119,17 @@ $ yarn start
 ```
 
 If your default browser doesn't open automatically, visit http://localhost/3000.
+
+## 🔨 Testing
+
+To run the tests, use the command below
+
+```
+$ yarn tests
+
+```
+
+Which will run the tests using Jest and React Testing Library.
 
 ## ✒️ Author <a name = "author"></a>
 
