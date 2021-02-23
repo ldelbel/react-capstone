@@ -5,67 +5,28 @@ exports[`renders correctly when store is provided 1`] = `
   className="sc-iBPRYJ fmVwbk container"
 >
   <div
-    style={
-      Object {
-        "background": "#343a40",
-        "borderTopLeftRadius": 20,
-        "borderTopRightRadius": 20,
-        "height": 120,
-        "padding": 15,
-        "paddingLeft": 30,
-        "paddingRight": 30,
-      }
-    }
+    className="filter"
   >
-    <div>
-      <span
-        style={
-          Object {
-            "color": "var(--white)",
-            "fontFamily": "\\"Alfa Slab One\\", cursive",
-            "fontSize": 30,
-          }
-        }
-      >
+    <div
+      className="filter__title"
+    >
+      <span>
         Filters 
       </span>
     </div>
     <div
-      className="d-flex flex-row justify-content-center align-items-center"
-      style={
-        Object {
-          "height": 50,
-        }
-      }
+      className="d-flex flex-row justify-content-center align-items-center filter__body"
     >
       <div
-        style={
-          Object {
-            "marginRight": 20,
-          }
-        }
+        className="filter__body__div"
       >
-        <span
-          style={
-            Object {
-              "color": "var(--light)",
-              "fontFamily": "Alata, sans-serif",
-              "fontSize": 20,
-              "marginRight": 10,
-            }
-          }
-        >
+        <span>
           Price Range 
         </span>
         <select
           defaultValue="null"
           name="price"
           onChange={[Function]}
-          style={
-            Object {
-              "borderRadius": 8,
-            }
-          }
         >
           <option
             value="null"
@@ -105,33 +66,15 @@ exports[`renders correctly when store is provided 1`] = `
         </select>
       </div>
       <div
-        style={
-          Object {
-            "marginRight": 20,
-          }
-        }
+        className="filter__body__div"
       >
-        <span
-          style={
-            Object {
-              "color": "var(--light)",
-              "fontFamily": "Alata, sans-serif",
-              "fontSize": 20,
-              "marginRight": 10,
-            }
-          }
-        >
+        <span>
           Sector 
         </span>
         <select
           defaultValue="null"
           name="sector"
           onChange={[Function]}
-          style={
-            Object {
-              "borderRadius": 8,
-            }
-          }
         >
           <option
             value="null"
@@ -406,33 +349,15 @@ exports[`renders correctly when store is provided 1`] = `
         </select>
       </div>
       <div
-        style={
-          Object {
-            "marginRight": 20,
-          }
-        }
+        className="filter__body__div"
       >
-        <span
-          style={
-            Object {
-              "color": "var(--light)",
-              "fontFamily": "Alata, sans-serif",
-              "fontSize": 20,
-              "marginRight": 10,
-            }
-          }
-        >
+        <span>
           Country 
         </span>
         <select
           defaultValue="null"
           name="country"
           onChange={[Function]}
-          style={
-            Object {
-              "borderRadius": 8,
-            }
-          }
         >
           <option
             value="null"
@@ -912,33 +837,15 @@ exports[`renders correctly when store is provided 1`] = `
         </select>
       </div>
       <div
-        style={
-          Object {
-            "marginRight": 20,
-          }
-        }
+        className="filter__body__div"
       >
-        <span
-          style={
-            Object {
-              "color": "var(--light)",
-              "fontFamily": "Alata, sans-serif",
-              "fontSize": 20,
-              "marginRight": 10,
-            }
-          }
-        >
+        <span>
           Exchange 
         </span>
         <select
           defaultValue="null"
           name="exchange"
           onChange={[Function]}
-          style={
-            Object {
-              "borderRadius": 8,
-            }
-          }
         >
           <option
             value="null"
@@ -983,21 +890,8 @@ exports[`renders correctly when store is provided 1`] = `
         </select>
       </div>
       <button
-        className="btn"
+        className="btn filter__body__btn"
         onClick={[Function]}
-        style={
-          Object {
-            "background": "var(--yellow)",
-            "borderRadius": 15,
-            "borderStyle": "none",
-            "color": "var(--white)",
-            "fontFamily": "Alata, sans-serif",
-            "fontSize": 20,
-            "fontWeight": "bold",
-            "paddingBottom": 6,
-            "paddingTop": 3,
-          }
-        }
         type="button"
       >
         Apply
@@ -1005,179 +899,7 @@ exports[`renders correctly when store is provided 1`] = `
     </div>
   </div>
   <div
-    className="d-flex flex-row justify-content-start flex-wrap"
-    style={
-      Object {
-        "background": "#17A2B8",
-        "borderBottomLeftRadius": "20px",
-        "borderBottomRightRadius": "20px",
-        "marginTop": "0",
-        "minHeight": "90px",
-        "paddingBottom": "15px",
-        "paddingLeft": "45px",
-        "paddingRight": "0",
-        "paddingTop": "10px",
-      }
-    }
-  >
-    <div
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "height": "100%",
-          "justifyContent": "center",
-          "width": "100%",
-        }
-      }
-    >
-      <svg
-        height={64}
-        viewBox="0 0 58 58"
-        width="30%"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          fill="none"
-          fillRule="evenodd"
-        >
-          <g
-            stroke="#fff"
-            strokeWidth="1.5"
-            transform="translate(2 1)"
-          >
-            <circle
-              cx="42.601"
-              cy="11.462"
-              fill="#fff"
-              fillOpacity="1"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="1;0;0;0;0;0;0;0"
-              />
-            </circle>
-            <circle
-              cx="49.063"
-              cy="27.063"
-              fill="#fff"
-              fillOpacity="0"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="0;1;0;0;0;0;0;0"
-              />
-            </circle>
-            <circle
-              cx="42.601"
-              cy="42.663"
-              fill="#fff"
-              fillOpacity="0"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="0;0;1;0;0;0;0;0"
-              />
-            </circle>
-            <circle
-              cx="27"
-              cy="49.125"
-              fill="#fff"
-              fillOpacity="0"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="0;0;0;1;0;0;0;0"
-              />
-            </circle>
-            <circle
-              cx="11.399"
-              cy="42.663"
-              fill="#fff"
-              fillOpacity="0"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="0;0;0;0;1;0;0;0"
-              />
-            </circle>
-            <circle
-              cx="4.938"
-              cy="27.063"
-              fill="#fff"
-              fillOpacity="0"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="0;0;0;0;0;1;0;0"
-              />
-            </circle>
-            <circle
-              cx="11.399"
-              cy="11.462"
-              fill="#fff"
-              fillOpacity="0"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="0;0;0;0;0;0;1;0"
-              />
-            </circle>
-            <circle
-              cx="27"
-              cy="5"
-              fill="#fff"
-              fillOpacity="0"
-              r="5"
-            >
-              <animate
-                attributeName="fill-opacity"
-                begin="0s"
-                calcMode="linear"
-                dur="1.3s"
-                repeatCount="indefinite"
-                values="0;0;0;0;0;0;0;1"
-              />
-            </circle>
-          </g>
-        </g>
-      </svg>
-    </div>
-  </div>
+    className="d-flex flex-row justify-content-start flex-wrap stocklist"
+  />
 </div>
 `;

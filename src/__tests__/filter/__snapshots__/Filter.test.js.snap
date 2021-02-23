@@ -2,67 +2,28 @@
 
 exports[`Filter DOM renders correctly 1`] = `
 <div
-  style={
-    Object {
-      "background": "#343a40",
-      "borderTopLeftRadius": 20,
-      "borderTopRightRadius": 20,
-      "height": 120,
-      "padding": 15,
-      "paddingLeft": 30,
-      "paddingRight": 30,
-    }
-  }
+  className="filter"
 >
-  <div>
-    <span
-      style={
-        Object {
-          "color": "var(--white)",
-          "fontFamily": "\\"Alfa Slab One\\", cursive",
-          "fontSize": 30,
-        }
-      }
-    >
+  <div
+    className="filter__title"
+  >
+    <span>
       Filters 
     </span>
   </div>
   <div
-    className="d-flex flex-row justify-content-center align-items-center"
-    style={
-      Object {
-        "height": 50,
-      }
-    }
+    className="d-flex flex-row justify-content-center align-items-center filter__body"
   >
     <div
-      style={
-        Object {
-          "marginRight": 20,
-        }
-      }
+      className="filter__body__div"
     >
-      <span
-        style={
-          Object {
-            "color": "var(--light)",
-            "fontFamily": "Alata, sans-serif",
-            "fontSize": 20,
-            "marginRight": 10,
-          }
-        }
-      >
+      <span>
         Price Range 
       </span>
       <select
         defaultValue="null"
         name="price"
         onChange={[Function]}
-        style={
-          Object {
-            "borderRadius": 8,
-          }
-        }
       >
         <option
           value="null"
@@ -102,33 +63,15 @@ exports[`Filter DOM renders correctly 1`] = `
       </select>
     </div>
     <div
-      style={
-        Object {
-          "marginRight": 20,
-        }
-      }
+      className="filter__body__div"
     >
-      <span
-        style={
-          Object {
-            "color": "var(--light)",
-            "fontFamily": "Alata, sans-serif",
-            "fontSize": 20,
-            "marginRight": 10,
-          }
-        }
-      >
+      <span>
         Sector 
       </span>
       <select
         defaultValue="null"
         name="sector"
         onChange={[Function]}
-        style={
-          Object {
-            "borderRadius": 8,
-          }
-        }
       >
         <option
           value="null"
@@ -403,33 +346,15 @@ exports[`Filter DOM renders correctly 1`] = `
       </select>
     </div>
     <div
-      style={
-        Object {
-          "marginRight": 20,
-        }
-      }
+      className="filter__body__div"
     >
-      <span
-        style={
-          Object {
-            "color": "var(--light)",
-            "fontFamily": "Alata, sans-serif",
-            "fontSize": 20,
-            "marginRight": 10,
-          }
-        }
-      >
+      <span>
         Country 
       </span>
       <select
         defaultValue="null"
         name="country"
         onChange={[Function]}
-        style={
-          Object {
-            "borderRadius": 8,
-          }
-        }
       >
         <option
           value="null"
@@ -909,33 +834,15 @@ exports[`Filter DOM renders correctly 1`] = `
       </select>
     </div>
     <div
-      style={
-        Object {
-          "marginRight": 20,
-        }
-      }
+      className="filter__body__div"
     >
-      <span
-        style={
-          Object {
-            "color": "var(--light)",
-            "fontFamily": "Alata, sans-serif",
-            "fontSize": 20,
-            "marginRight": 10,
-          }
-        }
-      >
+      <span>
         Exchange 
       </span>
       <select
         defaultValue="null"
         name="exchange"
         onChange={[Function]}
-        style={
-          Object {
-            "borderRadius": 8,
-          }
-        }
       >
         <option
           value="null"
@@ -980,21 +887,8 @@ exports[`Filter DOM renders correctly 1`] = `
       </select>
     </div>
     <button
-      className="btn"
+      className="btn filter__body__btn"
       onClick={[Function]}
-      style={
-        Object {
-          "background": "var(--yellow)",
-          "borderRadius": 15,
-          "borderStyle": "none",
-          "color": "var(--white)",
-          "fontFamily": "Alata, sans-serif",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "paddingBottom": 6,
-          "paddingTop": 3,
-        }
-      }
       type="button"
     >
       Apply

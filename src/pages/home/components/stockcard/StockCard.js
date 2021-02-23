@@ -72,10 +72,15 @@ border-bottom-style: none;
 const StockCard = props => {
   const { profile } = props;
   const history = useHistory();
+  // const [img, setImg] = useState(false);
 
   const handleClick = () => {
     history.push(`/details/${profile.symbol}`);
   };
+
+  // useEffect(() => {
+  //   setImg(true);
+  // }, [profile]);
 
   return (
     <StyledDiv1>

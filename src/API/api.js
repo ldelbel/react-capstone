@@ -33,4 +33,6 @@ const fetchStocks = async () => {
   }
 };
 
-export { profile, fetchStocks, quote };
+export {
+  profile, fetchStocks, quote,
+};

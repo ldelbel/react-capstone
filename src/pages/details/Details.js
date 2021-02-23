@@ -14,7 +14,6 @@ const Details = () => {
   const { symbol } = useParams();
   const history = useHistory();
   const [state, setState] = useState({});
-
   const [isFetching, setIsFetching] = useState(true);
 
   useEffect(async () => {

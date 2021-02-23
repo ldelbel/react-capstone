@@ -27,7 +27,7 @@ const StockList = props => {
       <div
         className={`d-flex flex-row justify-content-start flex-wrap ${styles.stocklist}`}
       >
-        {list
+        {list !== []
           ? (
             list.map(stock => (
               <StockCard key={stock.symbol} profile={stock} />
@@ -44,8 +44,12 @@ StockList.propTypes = {
     PropTypes.shape({
       symbol: PropTypes.string.isRequired,
     }),
-  ).isRequired,
+  ),
   updateFilter: PropTypes.func.isRequired,
+};
+
+StockList.defaultProps = {
+  list: [],
 };
 
 export default connect(mapStockstoProps, { updateFilter })(StockList);

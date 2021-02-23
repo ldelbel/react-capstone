@@ -5,24 +5,13 @@ exports[`StockCard DOM renders correctly 1`] = `
   className="sc-bdfBwQ tSdqh"
 >
   <div
-    className="d-flex flex-column justify-content-start align-items-center"
-    style={
-      Object {
-        "height": "75%",
-      }
-    }
+    className="d-flex flex-column justify-content-start align-items-center h-75"
   >
     <div
       className="sc-gsTCUz hgATcl d-flex flex-row align-items-center"
     >
       <div
-        className="d-flex align-items-center"
-        style={
-          Object {
-            "height": "100%",
-            "width": "50%",
-          }
-        }
+        className="d-flex align-items-center w-50 h-100"
       >
         <div
           className="sc-dlfnbm eKBrhu"
@@ -34,13 +23,7 @@ exports[`StockCard DOM renders correctly 1`] = `
         />
       </div>
       <div
-        className="d-flex flex-column justify-content-start align-items-end"
-        style={
-          Object {
-            "height": "100%",
-            "width": "50%",
-          }
-        }
+        className="d-flex flex-column justify-content-start align-items-end w-50 h-100"
       >
         <span
           style={
@@ -68,43 +51,19 @@ exports[`StockCard DOM renders correctly 1`] = `
       </div>
     </div>
     <div
-      style={
-        Object {
-          "height": "55%",
-          "padding": "0",
-          "width": "100%",
-        }
-      }
+      className="w-100 p-0 h55"
     >
       <div
-        className="d-flex align-items-end"
-        style={
-          Object {
-            "height": "40%",
-            "paddingLeft": "10px",
-          }
-        }
+        className="d-flex align-items-end h40pl10"
       >
         <span
-          className="text-nowrap text-truncate flex-nowrap"
-          style={
-            Object {
-              "fontFamily": "Alata, sans-serif",
-              "fontSize": "18px",
-            }
-          }
+          className="text-nowrap text-truncate flex-nowrap ffafs18"
         >
           Apple Inc
         </span>
       </div>
       <div
-        className="d-flex flex-column justify-content-center align-items-end"
-        style={
-          Object {
-            "fontSize": "13px",
-            "height": "60%",
-          }
-        }
+        className="d-flex flex-column justify-content-center align-items-end h60fs13"
       >
         <div
           className="sc-hKgILt fXVWRg"
@@ -134,13 +93,7 @@ exports[`StockCard DOM renders correctly 1`] = `
       Details
     </button>
     <span
-      style={
-        Object {
-          "color": "var(--yellow)",
-          "fontFamily": "Alfa Slab One, cursive",
-          "fontSize": "23px",
-        }
-      }
+      className="ffacyfs23"
     >
       U$ 135.37
     </span>
